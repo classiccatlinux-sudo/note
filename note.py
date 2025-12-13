@@ -1,15 +1,15 @@
 import time
 import os
 
+#v1.1 will be the last :)
+
 #boot
-print("loading...")
-time.sleep(4)
 print("weclome to note a simple program for CLI sticky notes")
-time.sleep(4)
+time.sleep(3)
 os.system('clear')
 
 #main
-sticky1 = input("whats your sticky note? (press ctrl + c to stop):")
+sticky1 = input("whats your sticky note? (press ctrl + c to stop): ")
 
 os.system('clear')
 
@@ -19,4 +19,3 @@ try:
        pass
 except KeyboardInterrupt:
     pass
-
